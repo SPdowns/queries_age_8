@@ -1,5 +1,12 @@
-/* This 'selector' must be at the bottom at of the file. */
-/* 'screen', 'speech', and 'print' are media-types. */
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    background-color: orange;
+  }
 }
